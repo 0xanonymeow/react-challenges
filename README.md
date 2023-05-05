@@ -5,6 +5,13 @@ This repository contains my solutions to various React challenges. Each challeng
 ### List of Challenges
 
 Challenge 1: Six Boxes
+Challenge 2: Autocomplete
+Challenge 3: Progress Bar
+Challenge 4: Timer
+Challenge 5: Todo List
+Challenge 6: Submit Form
+Challenge 7: Max Count
+Challenge 8: Lazy Load
 
 ### Running the Solutions
 
