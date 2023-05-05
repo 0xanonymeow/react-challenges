@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const getAutoCompleteResults = (query: string): Promise<string[]> => {
+const getAutocompleteResults = (query: string): Promise<string[]> => {
   const fruits = [
     'Apple',
     'Banana',
@@ -118,7 +118,7 @@ const useDebounceValue = (value: string, time = 250) => {
   return debounceValue
 }
 
-const AutoComplete = () => {
+const Autocomplete = () => {
   const [query, setQuery] = useState('')
   const [suggestions, setSuggestions] = useState<string[]>([])
 
@@ -132,7 +132,7 @@ const AutoComplete = () => {
     ;(async () => {
       setSuggestions([])
       if (debounceQuery.length > 0) {
-        const data = await getAutoCompleteResults(debounceQuery)
+        const data = await getAutocompleteResults(debounceQuery)
         setSuggestions(data)
       }
     })()
@@ -152,4 +152,4 @@ const AutoComplete = () => {
   )
 }
 
-export default AutoComplete
+export default Autocomplete
