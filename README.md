@@ -12,7 +12,7 @@ To run any of the solutions locally, follow these steps:
 3. Install the dependencies using `pnpm i`.
 4. Start the development server using `pnpm dev`.
 
-###Contributing
+### Contributing
 If you would like to contribute to this repository by adding your own solutions or improving existing ones, feel free to submit a pull request. Please make sure your code is well-documented and adheres to the existing coding style.
 
 ### License
