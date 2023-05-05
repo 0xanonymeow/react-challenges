@@ -4,7 +4,7 @@ This repository contains my solutions to various React challenges. Each challeng
 
 ### List of Challenges
 
-Challenge 1: [6 Boxes](https://github.com/0xanonymeow/react-challenges/tree/main/1-6-boxes)
+Challenge 1: Six Boxes
 
 ### Running the Solutions
 
