@@ -1,0 +1,19 @@
+## React Challenges Solutions
+This repository contains my solutions to various React challenges. Each challenge is solved in a separate directory, and includes a brief description of the challenge along with my implementation.
+
+### List of Challenges
+Challenge 1: [6 Boxes](https://github.com/0xanonymeow/react-challenges/tree/main/1-6-boxes)
+
+### Running the Solutions
+To run any of the solutions locally, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Navigate to the directory of the challenge you want to run.
+3. Install the dependencies using `pnpm i`.
+4. Start the development server using `pnpm dev`.
+
+###Contributing
+If you would like to contribute to this repository by adding your own solutions or improving existing ones, feel free to submit a pull request. Please make sure your code is well-documented and adheres to the existing coding style.
+
+### License
+This repository is licensed under the MIT License. See the LICENSE file for details.
