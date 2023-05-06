@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div className="container flex flex-col">
       {routes.map(({ path }, i) => (
-        <Link key={i} to={path}>
+        <Link key={i} to={path} className="dark:text-white">
           {path}
         </Link>
       ))}

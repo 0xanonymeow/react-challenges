@@ -5,8 +5,6 @@ const Fetch = () => {
 
   const onClick = async () => await get()
 
-  console.log(data)
-
   return (
     <div className="container">
       <p>Product</p>
