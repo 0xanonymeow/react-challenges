@@ -140,7 +140,10 @@ const Autocomplete = () => {
 
   return (
     <div className="w-full h-screen flex flex-col items-center">
-      <input className="mt-24 mb-4" value={query} onChange={onChange} />
+      <div className="flex flex-col mt-24 mb-4 gap-2">
+        <p>Enter Query</p>
+        <input className="bg-gray-200 rounded-md p-2" value={query} onChange={onChange} autoFocus />
+      </div>
       <div className="text-slate-600 dark:text-slate-200 flex flex-col gap-2 items-start">
         {suggestions.map((s) => (
           <div key={s} className="w-full">

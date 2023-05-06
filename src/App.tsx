@@ -1,3 +1,4 @@
+import { Layout } from 'components/Layout'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 
@@ -20,13 +21,16 @@ for (const path of Object.keys(pages)) {
   })
 }
 
-const router = createBrowserRouter(
-  routes.map(({ Element, ErrorBoundary, ...rest }) => ({
-    ...rest,
-    element: <Element />,
-    ...(ErrorBoundary && { errorElement: <ErrorBoundary /> }),
-  })),
-)
+const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: routes.map(({ Element, ErrorBoundary, ...rest }) => ({
+      ...rest,
+      element: <Element />,
+      ...(ErrorBoundary && { errorElement: <ErrorBoundary /> }),
+    })),
+  },
+])
 
 const App = () => {
   return <RouterProvider router={router} />

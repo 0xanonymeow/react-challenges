@@ -16,7 +16,12 @@ const TodoList = () => {
   return (
     <div className="container">
       <div className="flex gap-2">
-        <input className="p-2" value={item} onChange={(e) => setItem(e.target.value)} autoFocus />
+        <input
+          className="bg-gray-200 rounded-md p-2"
+          value={item}
+          onChange={(e) => setItem(e.target.value)}
+          autoFocus
+        />
         <button onClick={onAdd}>Add</button>
       </div>
       <ul className="mt-4 flex flex-col items-center gap-2">
