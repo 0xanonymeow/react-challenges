@@ -11,12 +11,12 @@ const Fetch = () => {
       <div className="text-left max-w-xl break-all">
         {data &&
           Object.entries(data).map(([key, value]) => (
-            <div>
+            <div key={key}>
               <p>
                 <span className="font-bold">{`${key} : `}</span>
                 {['thumbnail', 'images'].includes(key) ? (
                   Array.isArray(value) ? (
-                    [...value].map((src) => <img src={src} width={200} height={100} />)
+                    [...value].map((src, i) => <img key={i} src={src} width={200} height={100} />)
                   ) : (
                     <img src={value} width={200} height={100} />
                   )
