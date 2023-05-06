@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
 
+const excluded = ['url-parameters-two']
 const pages = import.meta.glob('./**/*.tsx', { eager: true })
 const routes = []
 for (const path of Object.keys(pages)) {
+  if (excluded.filter((_path) => path.includes(_path)).length) continue
   const fileName = path.match(/\.\/(.*)\.tsx$/)?.[1]
   if (!fileName) {
     continue
