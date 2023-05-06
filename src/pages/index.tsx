@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-const excluded = ['url-parameters-two']
+const excluded = ['url-parameters-two', 'not-found']
 const pages = import.meta.glob('./**/*.tsx', { eager: true })
 const routes = []
 for (const path of Object.keys(pages)) {
