@@ -1,6 +1,6 @@
 ## React Challenges Solutions
 
-This repository contains my solutions to various React challenges. Each challenge is solved in a separate directory, and includes a brief description of the challenge along with my implementation.
+This repository contains my solutions to various React challenges, each of which is presented on a separate page with my implementation.
 
 ### List of Challenges
 
@@ -12,15 +12,21 @@ This repository contains my solutions to various React challenges. Each challeng
 - Challenge 6: [Submit Form]()
 - Challenge 7: [Max Count]()
 - Challenge 8: [Lazy Load]()
+- Challenge 9: [URL Parameters]()
+- Challenge 10: [Not Found]()
+- Challenge 11: [Is Bottom]()
+- Challenge 12: [Window Dimentions]()
+- Challenge 13: [Fetch]()
+- Challenge 14: [Dark Mode]()
+- Challenge 15: [Remove Child]()
 
 ### Running the Solutions
 
-To run any of the solutions locally, follow these steps:
+To run locally, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Navigate to the directory of the challenge you want to run.
-3. Install the dependencies using `pnpm i`.
-4. Start the development server using `pnpm dev`.
+2. Install the dependencies using `pnpm i`.
+3. Start the development server using `pnpm dev`.
 
 ### Contributing
 
